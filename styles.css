@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #006bcc;
+    --secondary-color: #ff9e19;
+    --tertiary-color: #7cbe26;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: var(--primary-color);
+}
+
+nav {
+    width: 50%;
+    margin: auto;
+}
+
+nav a {
+    color: #fff;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.form-group {
+    width:  50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input {
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.main-btn {
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    background: var(--secondary-color);
+    border: none;
+    color:  #000;
+}
+
+.main-btn:hover {
+    background: #dda04a;
+    border-radius: 5px;
+}
+
+.countryFlags {
+    width: 40px;
+}
+
+.container section {
+    width: 50%;
+    margin: auto;
+}
+
+.countriesList {
+    margin-top: 10px;
+}
+
+.flags {
+    width: 40px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #000;
+}
+
+th {
+    padding: 10px;
+    background: black;
+    color: #fff;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+
+tbody tr {
+    padding: 5px;
+}
