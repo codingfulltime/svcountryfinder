@@ -17,7 +17,7 @@ header {
 }
 
 nav {
-    width: 50%;
+    width: 90%;
     margin: auto;
 }
 
@@ -70,7 +70,7 @@ label {
 }
 
 .container section {
-    width: 50%;
+    width: 90%;
     margin: auto;
 }
 
@@ -104,4 +104,15 @@ tr {
 
 tbody tr {
     padding: 5px;
+}
+
+@media (min-width: 1400px){
+    nav {
+        width: 60%;
+        margin: auto;
+    }
+    .container section {
+        width: 60%;
+        margin: auto;
+    }
 }
