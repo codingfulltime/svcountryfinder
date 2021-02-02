@@ -29,6 +29,18 @@ nav a {
     padding: 10px;
 }
 
+.instructions {
+    display: block;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.instructions span {
+    font-weight: bold;
+}
+
 .main-form {
     display: flex;
     flex-wrap: wrap;

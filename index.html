@@ -15,37 +15,45 @@
         </nav>
     </header>
     <main>
+        
         <div class="container">
-            <section>
-                <form class="main-form">
-                    <div class="form-group">
-                        <label for="byCountry">filter by country</label>
-                        <input type="text" placeholder="Search Country" id="byCountry" class="filterInput byCountry">
+            <div class="container-wrapper">
+                <section>
+                    <form class="main-form">
+                        <div class="form-group">
+                            <label for="byCountry">filter by country</label>
+                            <input type="text" placeholder="Search Country" id="byCountry" class="filterInput byCountry">
                         </div>
-                    <div class="form-group">
-                        <label for="byCountry">filter by language</label>
-                        <input type="text" placeholder="Search Language" id="byLanguage" class="filterInput byLanguage">
-                    </div>
-                    <button class="main-btn">Get Countries</button>
-                </form>
-            </section>
-            <section>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Country</th>
-                            <th>Language</th>
-                            <th>Flag</th>
-                        </tr>
-                    </thead>
-                    <tbody class="list">
+                        <div class="form-group">
+                            <label for="byCountry">filter by language</label>
+                            <input type="text" placeholder="Search Language" id="byLanguage" class="filterInput byLanguage">
+                        </div>
+                        <button class="main-btn">Get Countries</button>
+                        <div class="instructions">
+                            <p>Find out the main languages spoken in most known countries around the world.</p>
+                            <p>Click on <span>Get Countries</span> to fetch the list of countries and use the filters to check a specific country.</p>
+                        </div>
                         
-                    </tbody>
-                </table>
-                <ul class="countriesList">
+                    </form>
+                </section>
+                <section>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Country</th>
+                                <th>Language</th>
+                                <th>Flag</th>
+                            </tr>
+                        </thead>
+                        <tbody class="list">
+                            
+                        </tbody>
+                    </table>
+                    <ul class="countriesList">
 
-                </ul>
-            </section>
+                    </ul>
+                </section>
+            </div>
         </div>
     </main>
     
