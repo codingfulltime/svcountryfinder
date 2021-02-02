@@ -1,4 +1,4 @@
-# countryFinder.com
+# Country Finder
 Landing page to show main languages spoken on each country
 
 Check it out here https://jeffryjimenez1.github.io/svcountryfinder/
